@@ -1,35 +1,37 @@
-div, input,textarea {
-    box-sizing: border-box;
+div,
+input,
+textarea {
+  box-sizing: border-box;
 }
 
 .form-background {
-    background-color: black;
-    padding: 30px;
+  background-color: black;
+  padding: 30px;
 }
 
 .form-wgite {
-    background-color: white;
-    width: 80%;
-    padding: 30px;
-    max-width: 600px;
-    margin: auto;
+  background-color: white;
+  width: 80%;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
 }
 
 .form-input {
-    width: 100%;
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid gray;
-    border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 
 .w-50 {
-    width: 50%;
-    float: left;
-    padding: 10px;
+  width: 50%;
+  float: left;
+  padding: 10px;
 }
 
 .w-100 {
-    width: 100%;
-    padding: 10px;
+  width: 100%;
+  padding: 10px;
 }
