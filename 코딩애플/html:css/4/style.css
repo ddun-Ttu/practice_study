@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+    /* <table>은 기본적으로 틈이 존재하여 그 틈을 없애는 기능 */
+}
+
+th, td {
+    border: 1px solid gray;
+}
+
+td {
+    vertical-align: middle;
+    /* 
+    1. 셀 안의 요소 상하정렬
+    2. inline, lnline block 요소간의 세로정렬할 때 사용
+    */
+}
