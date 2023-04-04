@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; 몇배수 단위 */
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+
+    /* 옵션2 */
+    grid-template-areas: 
+    "헤더 헤더 헤더 헤더"
+    "사이드 . . ."
+    "사이드 . . .";
+}
+
+.grid-container div {
+    border: 1px solid black;
+}
+
+
+/* 옵션 1 */
+/*
+.grid-nav {
+    // display:grid 자식들에만 사용 가능 // 세로선 1~4만큼 차지해주세요 라는 뜻
+    grid-column: 1 /4;
+}
+
+.grid-sidebar {
+    grid-row: 2/4;
+}
+*/
+
+
+/* 옵션 2 : 자식에 이름쓰고 부모는 색칠하기 */
+.grid-nav {
+    grid-area: 헤더;
+}
+
+.grid-sidebar{  
+    grid-area: 사이드;
+
+}
