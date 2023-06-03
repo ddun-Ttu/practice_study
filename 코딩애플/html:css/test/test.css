@@ -1,0 +1,260 @@
+div,
+input,
+form,
+textarea {
+  box-sizing: border-box;
+}
+
+.con {
+  width: 100%;
+  max-width: 834px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  /* 텍스트만 중앙정렬됨으로 혹시 텍스트가 없는 div나 이미지를 첨부하실 경우
+    해당 요소에 margin: auto; 를 넣어주세요! */
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.menuBar {
+  display: flex;
+}
+
+.flexGrow {
+  flex-grow: 1;
+}
+
+.menuLogo {
+  padding: 2% 0% 0% 2%;
+}
+
+.menuSeb {
+  padding: 2% 2% 0% 0%;
+}
+
+.sebBanner {
+  display: flex;
+  width: 100%;
+  border-radius: 20px;
+  margin: 4% 0;
+  padding: 0 2.5%;
+  border: 1px solid red;
+}
+
+.w1 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w2 {
+  flex-grow: 5;
+  padding: 0 0 0 3%;
+}
+
+.w3 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 상하정렬 */
+}
+
+.sebP {
+  text-align: left;
+}
+
+/* 로그인 */
+
+img {
+  padding: 3% 3% 0 3%;
+}
+
+.h3Style {
+  font-size: 38px;
+  margin: 0;
+  padding: 2%;
+  color: #00ad5c;
+}
+
+.loginDiv {
+  width: 100%;
+  background-color: rgb(255, 212, 212);
+  padding: 16% 16% 2% 16%;
+}
+
+.formStylee {
+  border: 1px solid #121212;
+  border-radius: 5px;
+  padding: 6%;
+  text-align: center;
+}
+
+input {
+  padding: 4%;
+  width: 100%;
+  margin: 2%;
+  border-radius: 5px;
+  border: 1px solid #b6b6b6;
+  font-size: 18px;
+}
+
+.buttonStyle {
+}
+
+.buttonStyle > button {
+  padding: 4%;
+  width: 100%;
+  margin: 5% 2% 3% 2%;
+  border-radius: 5px;
+  border: 1px solid #b6b6b6;
+  font-size: 22px;
+  color: white;
+  background-color: #00ad5c;
+}
+
+.ulStyle {
+  display: flex;
+}
+
+/* 리셋 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a:link {
+  color: #262626;
+  text-decoration: none;
+}
+a:visited {
+  color: #262626;
+  text-decoration: none;
+}
+
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
